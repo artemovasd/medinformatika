@@ -6,6 +6,16 @@ body{
 }
 header,
 footer{
-    text-align: center;
+    text-align:left;
     background-color: gainsboro;
 } 
+p{
+    text-align:right;
+    text-indent: 12ch;
+}
+h2,
+h3,
+h4{
+    color: crimson;
+    text-decoration-line: underline;
+}
