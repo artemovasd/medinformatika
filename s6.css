@@ -3,6 +3,7 @@ body{
     color: rgb(10, 77, 139);
     margin: 5px;
     padding: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 header,
 footer {
@@ -16,4 +17,13 @@ p, ol {
 h2, h3, h4 {
     color: crimson;
     text-decoration-line: underline;
+}
+p::first-letter {
+    font-size: 120%;
+    color: blueviolet;
+    text-decoration-line: underline;
+}
+h2::first-letter {
+    font-size: 150%;
+    color: black;
 }

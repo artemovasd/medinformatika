@@ -30,3 +30,11 @@ h2::first-letter {
 section:hover {
     background-color: blanchedalmond;
 }
+.myimage-div
+{
+    display: none;
+}
+a.myimage-ssilka:hover+div
+{
+    display: block;
+}
